@@ -1,0 +1,51 @@
+Exercício para fixação dos conceitos Entidades e Atributos
+
+1.Crie no seu caderno as entidades e atributos para cada situação apresentada abaixo, represente também a chave 
+primária e justifique sua escolha:
+
+A) Cadastro de produtos (Papelaria)
+
+Entidade:
+Produto
+
+Atributo:
+
+Código de Produto (CP)
+CP: Código do produto sendo unico para cada.
+
+Nome:
+máterial:
+Preço:
+Fabricante:
+Marca:
+Quantidade:
+Descrição
+
+B) Cadastro de funcionário (Escola):
+
+Entidade:
+Funcinário
+
+Atributo:
+Matricula (MT):
+Salario: 
+Carga Horaria:
+CPF:
+Endereço:
+Data de nascimento:
+Telefone:
+Nome:
+
+Matricula (MT) Codigo para cada funcionário unico.
+
+C) Cadastro de fornecedores (Tecidos)
+
+Entidade:
+Fornecedores
+
+Atributo:
+
+Nome:
+Produto:
+Tipo de tecido:
+
