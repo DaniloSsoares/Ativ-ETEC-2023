@@ -48,4 +48,37 @@ Atributo:
 Nome:
 Produto:
 Tipo de tecido:
+C) Cadastro de fornecedores (Tecidos)
+
+Entidade:
+Fornecedores
+
+Atributo:
+
+Nome:
+Produto:
+Tipo de tecido:
+Peso:
+MEI:
+cor:
+CNPJ:
+iD(pk):
+Endereço:
+Preço:
+
+ID(pk) pois não possui um PK expecifico para esse banco de Dados.
+
+D)Cadastro de Departamento(empresa)
+   
+Entidade:
+Departamento
+
+Atributos:
+Tarefas:
+Gastos:
+Cargos:
+Data de efetivação:
+Departamento:
+Posição:
+Salario:
 
