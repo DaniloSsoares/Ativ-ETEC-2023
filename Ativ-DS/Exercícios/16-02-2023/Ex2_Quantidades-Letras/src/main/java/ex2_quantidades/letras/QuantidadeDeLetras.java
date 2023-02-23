@@ -12,21 +12,32 @@ import javax.swing.JOptionPane;
  */
 public class QuantidadeDeLetras {
       public static void main(String[] args){
+          // Declarando a variavel inicial
           int t;
           String p;
+          
+          //Inicio do metodo
           digite();
+          
+          // Aqui se realiza a digitação dentro da variavei p
           p = JOptionPane.showInputDialog("Digite uma palavra qualquer: ");
+          
+          //Aqui é realizado o 2 metodo sendo o t a variavel resultante do que acontecer dentro do metodo e p o valor que foi digitado anteriomente.
           t = tamanho(p);
+          
+          //Aqui é o resultado final.
            JOptionPane.showMessageDialog(null,p+ "Possui " +t+"caracteres");
       }
            
              static void digite()
-    {
+    {//Aqui é realizado a messagem que aparecerá primeiro.
     JOptionPane.showMessageDialog(null,"Digite uma palavra");
     } 
              
     static int tamanho(String x)
+            //Aqui é realizado o calculo para o tamho da palavra
     { 
+        //Aqui é realizado o retorno do valor digitado para o main.
       return x.length();
     }
 }
