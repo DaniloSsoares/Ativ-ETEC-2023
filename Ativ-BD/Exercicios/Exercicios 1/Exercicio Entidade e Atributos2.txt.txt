@@ -1,5 +1,7 @@
-2) Identifique dentre as palavras abaixo quais são as entidades (com no minimo dois atributos) e seus  possiveis
-atributos, identifique caso houver a chave primária:
+2) Identifique dentre as palavras abaixo quais são as entidades (com no minimo 
+dois atributos) e seus  possiveis atributos, identifique caso houver a 
+chave primária:
+
 ConsultaMédica; Nome; Duração;Data;
 Gênero; Ator;Horário; Filme; Editora;
 Livro; Diretor; Autor; Paciente
@@ -9,10 +11,10 @@ consultaMedica
 
 Atributos:
 
- Horária:
+ Horário:
  Paciente:
  Data:
-Gênero:
+ Gênero:
 
 2) Entidade:
  Livro

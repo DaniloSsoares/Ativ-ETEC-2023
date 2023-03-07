@@ -19,7 +19,7 @@ Preço:
 Fabricante:
 Marca:
 Quantidade:
-Descrição
+Descrição:
 
 B) Cadastro de funcionário (Escola):
 
@@ -28,8 +28,8 @@ Funcinário
 
 Atributo:
 Matricula (MT):
-Salario: 
-Carga Horaria:
+Salário: 
+Carga Horária:
 CPF:
 Endereço:
 Data de nascimento:
@@ -37,17 +37,8 @@ Telefone:
 Nome:
 
 Matricula (MT) Codigo para cada funcionário unico.
+   
 
-C) Cadastro de fornecedores (Tecidos)
-
-Entidade:
-Fornecedores
-
-Atributo:
-
-Nome:
-Produto:
-Tipo de tecido:
 C) Cadastro de fornecedores (Tecidos)
 
 Entidade:
@@ -62,7 +53,7 @@ Peso:
 MEI:
 cor:
 CNPJ:
-iD(pk):
+ID(pk):
 Endereço:
 Preço:
 
