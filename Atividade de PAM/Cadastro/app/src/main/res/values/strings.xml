@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cadastro</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtname"> Olá </string>
+    <string name="txtNomeMsg"> Digite seu nome</string>
+    <string name="txtEnderecoMsg"> Digite seu Endereco</string>
+    <string name="txtBairroMsg"> Digite seu Bairro</string>
+    <string name="txtCidadeMsg"> Digite seu Cidade</string>
+    <string name="txtCEPMsg"> Digite seu CEP</string>
+</resources>
