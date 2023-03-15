@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
             val edtNome: EditText = findViewById(R.id.edtNome)
         val edtEndereco: EditText = findViewById(R.id.edtEndereco)
         val edtBairro: EditText = findViewById(R.id.edtBairro)
-        val etnCidade: EditText = findViewById(R.id.edtCidade)
-        val etnCEP: EditText = findViewById(R.id.edtCEP)
+        val edtCidade: EditText = findViewById(R.id.edtCidade)
+        val edtCEP: EditText = findViewById(R.id.edtCEP)
 
 
         val btnCadastrar: Button = findViewById(R.id.btnCadastrar)
@@ -25,11 +25,8 @@ class MainActivity : AppCompatActivity() {
                     +"\n"+ edtEndereco.text.toString()
                         +"\n"+ edtBairro.text.toString()
                         +"\n"+ edtCidade.text.toString()
-                        +"\n"+ edtCEP.text.toString()
-
-                    , Toast.LENGTH_SHORT)
+                        +"\n"+ edtCEP.text.toString(), Toast.LENGTH_SHORT)
                 toast.show()
             }
         }
     }
-}
