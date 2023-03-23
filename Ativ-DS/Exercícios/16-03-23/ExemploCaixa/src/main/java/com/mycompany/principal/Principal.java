@@ -42,4 +42,8 @@ public class Principal {
           
     }while(op != 0); //Repetirá asoperações enquanto a opção for diferente de zero
 }
+    
+    
+    
+    
 }

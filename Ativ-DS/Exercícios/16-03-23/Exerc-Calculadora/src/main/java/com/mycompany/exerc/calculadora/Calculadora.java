@@ -1,4 +1,4 @@
-/*
+/* 
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -56,10 +56,22 @@ public class Calculadora {
            this.setN1(Double.parseDouble(JOptionPane.showInputDialog("Digite seu valor A")));
            this.setN2(Double.parseDouble(JOptionPane.showInputDialog("Digite seu valor B")));
            this.setR(this.getN1() + this.getN2());
+           JOptionPane.showMessageDialog(null, "Seu resultado é " +this.getR());
        }
-       public void subtrair(double A,double B){
-       double a=A;
-       double b=B;
+       public void subtrair(double VA,double VB){
+      this.setR(VA-VB);
+      JOptionPane.showMessageDialog(null, "Seu resultado é " +this.getR());
+       }
+       public double multiplicar(){
+           this.setN1(Double.parseDouble(JOptionPane.showInputDialog("Digite seu valor A")));
+           this.setN2(Double.parseDouble(JOptionPane.showInputDialog("Digite seu valor B")));
+                   this.setR(this.getN1()*this.getN2());
+           return this.getR();
+       }
+       public double dividir(double Va, double Vb){
+           this.setR(Va/Vb );
+        return this.getR();
+           
        }
     }
 
