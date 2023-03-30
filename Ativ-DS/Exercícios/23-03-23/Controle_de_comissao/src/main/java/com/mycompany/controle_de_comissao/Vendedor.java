@@ -10,20 +10,25 @@ import javax.swing.JOptionPane;
  *
  * @author Admin
  */
+//Atributos
 public class Vendedor {
+    // Atributos
    private String nome;
    private Double SalarioBase;
    private double Result;
-
+   
+//construtores
+      //Inicialzando atributo zerado
    public Vendedor(){
    this("",0,0);
    }
-    public Vendedor(String nome, Double SalarioBase) {
+      //Recebendo valores do atributos
+    public Vendedor(String nome, double SalarioBase,double result) {
         this.nome = nome;
-        this.Result = Result;
         this.SalarioBase = SalarioBase;
+        this.Result = Result;
     }
-
+//Get e Setters
     public double getResult() {
         return Result;
     }
@@ -48,11 +53,18 @@ public class Vendedor {
     public void setSalarioBase(Double SalarioBase) {
         this.SalarioBase = SalarioBase;
     }
-  
+  //fazendo calculo de comissão
         public double calculoComissao(double valorVendido){
+            
+            //Colocando valor de Nome
               this.setNome(JOptionPane.showInputDialog("Digite seu Nome"));
-               this.setSalarioBase(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salário Base")));
-               this.setResult(this.getSalarioBase() + (ValorVendido*0.1));
+              
+              //Colocando valor de Salário
+               this.setSalarioBase(Double.valueOf(JOptionPane.showInputDialog("Digite o valor do salário Base")));
+               
+               //Resultado/ calculo
+               this.setResult(this.getSalarioBase() + (valorVendido*(0.1)));
+               
        return getResult();
      
             

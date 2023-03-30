@@ -11,10 +11,15 @@ import javax.swing.JOptionPane;
  * @author Admin
  */
 public class Principal {
+    //Inicio do main
     public static void main(String[] args) {
+          //Instancia
       Vendedor ven = new Vendedor();
+       //recebendo valor da venda
        double valorVendido =(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de venda")));
+        //recebendo valor da classe vendedor 
        ven.calculoComissao(valorVendido);
+        //Mostrando resultado
        JOptionPane.showConfirmDialog(null, ven.getResult());
     }
 }
