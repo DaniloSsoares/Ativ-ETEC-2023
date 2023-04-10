@@ -67,7 +67,12 @@ Insert Into Territorio Values ('98052','Redmond',2);
 Insert Into Territorio Values ('98104','Seattle',2);
 
 select * from Territorio;
-delete from Territorio ;
-   ;
 
-drop table Territorio;
+update Territorio set Territoriodescricao ='Nova Iorque' where Territoriodescricao like 'New York';
+
+update Territorio set Cod_Regiao = 2 where Cod_Regiao =2;
+
+update Territorio set Cod_Regiao =9 where Cod_Territorio <3000;
+
+update Territorio set Territoriodescricao ='São Francisco' where Territoriodescricao like 'San Francisco';
+
