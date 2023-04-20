@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-    <h1>Resultado do processamento</h1>
-    </header>
-<main>
-    <?php
-$nome = $_GET["nome"]??"sem nome"; //?? é usado para escrever quando gerar erro alguma frase no lugar 
-$sobrenome = $_GET["sobrenome"]??"Desconhecido";//recebendo as variaveis digitadas no html
-
-echo "<p> É um prazer te conhecer, $nome $sobrenome ! Este é meu site!"
-?>
-<p><a href="javascript:history.gol(-1)">Voltar para á página anterior</a></p> 
-
-</main>
-</body>
-</html>
+{
+  "_from": "color-name@1.1.3",
+  "_id": "color-name@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=",
+  "_location": "/color-name",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "color-name@1.1.3",
+    "name": "color-name",
+    "escapedName": "color-name",
+    "rawSpec": "1.1.3",
+    "saveSpec": null,
+    "fetchSpec": "1.1.3"
+  },
+  "_requiredBy": [
+    "/color-convert",
+    "/color-string"
+  ],
+  "_resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz",
+  "_shasum": "a7d0558bd89c42f795dd42328f740831ca53bc25",
+  "_spec": "color-name@1.1.3",
+  "_where": "/home/jenkins/agent/workspace/Wildwebdeveloper_master/org.eclipse.wildwebdeveloper/node_modules/color-convert

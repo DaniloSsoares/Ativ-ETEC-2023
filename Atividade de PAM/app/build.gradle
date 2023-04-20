@@ -1,44 +1,15 @@
-plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
-
-android {
-    namespace 'com.example.appaula3'
-    compileSdk 33
-
-    defaultConfig {
-        applicationId "com.example.appaula3"
-        minSdk 24
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-}
-
-dependencies {
-
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-}
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Instalación en Mac</title>
+</head>
+<body>
+<font color="#333333" size="2" face="Arial, Helvetica, sans-serif">
+<h3><img src="../img/mac.jpg" border=0 align="absmiddle"> <b>Instalación en Macintosh</b></h3>
+<p>Arrastra y suelta el archivo &quot;PhotoZoom Pro 3&quot; en la carpeta Aplicaciones, o donde quieras instalar PhotoZoom Pro 3.</p>
+<p><br><b>Los plug-ins de Adobe&reg; Photoshop&reg; (Automatización y Exportación)</b><br><br>
+Aparte de poder ejecutarse como una aplicación independiente, PhotoZoom Pro 3 puede usarse como plug-in de Automatización y Exportación de Adobe Photoshop.<br>
+<br>
+Antes de instalar los plug-ins de Automatización y de Exportación, abre la carpeta &quot;Plug-ins&quot; de Photoshop. This folder is located in the folder where you have installed Adobe Photoshop.<br><br>
+Para instalar el <i>plug-in de Automatización</i>, copia la carpeta &quot;PhotoZoom Pro 3 Automation&quot; en la carpeta &quot;Plug-ins&quot; de Photoshop.<br><br>
+Para instalar el <i>plug-in de Exportación</i>, copia la carpeta &quot;PhotoZoom Pro 3 Export&quot; en la carpeta &quot;Import/Export&quot; de la carpeta &quot;Plug-ins&quo
