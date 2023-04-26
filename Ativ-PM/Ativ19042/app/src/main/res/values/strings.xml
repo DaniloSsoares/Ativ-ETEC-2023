@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ativ-19-04</string>
+    <string name="roll_label">Roll</string>
+    <string name="txtNomeMsg">Digite um número!!</string>
+    <string name="txt">Vamos ver sua sorte!!</string>
+</resources>
