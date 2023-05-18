@@ -9,11 +9,13 @@ import java.awt.Container;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 
@@ -29,46 +31,58 @@ public class Exemplo1 extends JFrame{
     
    //JList lista;
     JComboBox lista;
-    String jogos[] = {" Fortnite","Call of Duty","Batman","Spider man","overwath","Rocket League"};
+    String cidades[] = {"Rio de Janeiro","São Paulo","Minas Gerais","Espirito Santo","Bahia","Pernambuco","Rio Grande do Sul","Acre"};
     JButton exibir;
     JLabel rotulo;
+  
+    
     public Exemplo1(){
     super("Exemplo de Lista e Caixa");
     Container tela = getContentPane();
+    ImageIcon icone = new  ImageIcon("src/img/list.png");
+    setIconImage(icone.getImage());
     setLayout(null);
+       tela.setBackground(new Color(000,000,000));
     
     exibir = new JButton("Exibir");
     rotulo = new JLabel("");
-    //lista = new JList(jogos);
-    lista =  new JComboBox(jogos);
-    //lista.setVisibleRowCount(5);
+    lista =  new JComboBox(cidades);
+    lista.setEditable(true);
+    
     lista.setMaximumRowCount(5);
+    
     JScrollPane painelRolagem = new JScrollPane(lista);
-  //  lista.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+
     
-    
-    painelRolagem.setBounds(40,50,150,100);
-    exibir.setBounds(270,50,100,30);
-    rotulo.setBounds(50,50,100,30);
-    lista.setBounds(50,50,150,30);
-    
+     painelRolagem.setBounds(40,50,180,80);
+     exibir.setBounds(270,50,100,30);
+     rotulo.setBounds(50,150,200,30);
+   
+      rotulo.setForeground(Color.orange);
     lista.setForeground(Color.orange);
     lista.setBackground(Color.black);
     lista.setFont(new Font("Times New Roman" , Font.BOLD,16));
     
-    
-    exibir.addActionListener(
-    new ActionListener(){
-        public void actionPerformed(ActionEvent e){
-            rotulo.setText("O jogo é:" +lista.getSelectedItem().toString());
-        }});
-    
-     tela.add(painelRolagem); tela.add(exibir);
-     tela.add(rotulo);
+   exibir.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+         rotulo.setText("O estado é: " + lista.getSelectedItem().toString());
+        String resultados = "Valores selecionados:\n" + lista.getSelectedItem().toString();
+        JOptionPane.showMessageDialog(null, resultados);
+    }
+});
+
+
+
+
+tela.add(painelRolagem); 
+tela.add(exibir);
+tela.add(rotulo);
      
      setSize(400,250);
      setVisible(true);
+     setLocationRelativeTo(null);
     }
+    
     public static void main(String[] args) {
         Exemplo1 app = new Exemplo1();
         app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
