@@ -13,7 +13,7 @@
 
      $umidade= $_GET['umidade'];
      $temperatura = $_GET['temperatura'];
-     $sqln = "IMSERT INTO dado(umidade, temperartura) Value(:umidade, : temperatura);";
+     $sqln = "INSERT INTO dado(umidade, temperartura) Value(:umidade, : temperatura);";
 
      $stmt = $PDO->prepare($sql);
      $stmt->bindParam(':umidade',$umidade);
