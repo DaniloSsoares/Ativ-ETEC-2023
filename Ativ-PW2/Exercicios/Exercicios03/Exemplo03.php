@@ -7,6 +7,9 @@
     <title>Página Calcular soma mostrar3.php</title>
 </head>
 <body>
+<header>
+    <h1>Resultado do processamento</h1>
+    </header>
 <?php
   $A = $_POST['txta'];
     $B = $_POST['txtb'];

@@ -8,6 +8,13 @@ package exercicio_01;
  *
  * @author dti
  */
-public class principal {
-     Pessoa pessoa = new Pessoa("","","","");
+public class principal{
+    public static void main(String[] args) {
+      pessoa Pessoa = new pessoa();
+      Pessoa.inserirDadosPessoa();
+     Pessoa.apresentarPessoa();
+     
+    }
+    
+   
 }

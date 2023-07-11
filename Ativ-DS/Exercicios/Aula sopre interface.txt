@@ -1,0 +1,41 @@
+javax.swing
+
+public class PrimeiraJanela extends JFrame --(importação)
+
+public PrimeiraJanela() {super --(escreve o titulo)
+("Nossaprimeirajanela"); 
+setSize(300,150);  // largura  (comprimento) --(tamanho) e altura
+setVisible(true);}
+
+public static void main(Stringargs[]){
+PrimeiraJanel aapp= new PrimeiraJanela();
+setResizable(false); --(Fazer com que a tela não seja possivel mexer no tamanho) 
+setExtendedState(MAXIMIZED_BOTH); --(faz com que a tela de maxmizar) }
+
+app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); --(Sair e fechar a janela)
+ }
+  } 
+  
+importjavax.swing.*; --(obrigatório importar para auterar a tela)
+importjava.awt.*;
+public class CorDeFundo2 extendsJFrame 
+{
+publicCorDeFundo2()
+{super("Definindoacordefundoparaajanela");
+Containertela=getContentPane();
+tela.setBackground(newColor(255,128,128)) --(Personalizando as cores da tela);
+setIconImage(icone.getImage()); --(colocando icone)
+setSize(500,100);
+setVisible(true);
+}
+public static void main(String args[]){
+CorDeFundo2 app = new CorDeFundo2(); 
+app.setDefault Close Operation(JFrame.EXIT_ON_CLOSE);
+} 
+ }
+
+--Jlabel
+setLayout(null); --(Limpa a tela para não ter nenhum erro de posição)
+rotulo1 =  new JLabel ("Nome"); --(o Rotulo1 é instância)
+rotulo1.setBounds(50 (coluna),20(linha),80 (largura) ,20) --(tamanho do texto) 
+ tela.add(rotulo1); --(acrescentando na tela)
