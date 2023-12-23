@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Card 3D</title>
+        <link rel="stylesheet" type="text/css" href="../css/css.css">
+        <link rel="stylesheet" type="text/css" href="../css/Menu.css">
+        
+    
+
+    </head>
+    <body>
+
+       <header>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+        
+        <div class="nav">
+            
+            <div class="menu">
+                
+                <nav>
+                    <a href="index.html" class="logo">Home</a>
+                  
+                    <ul>
+
+                        <li><a href="#">Cadastrar</a>
+                            <ul>
+                                <li><a href="cadastrar.php">Cadastrar Autor</a></li>
+                                <li><a href="cadastrar2.php">Cadastrar Autoria</a></li>
+                                <li><a href="cadastrar3.php">Cadastrar Livro</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="#">Listar</a>
+                        
+                            <ul>
+                                <li><a href="listar.php">Listar Autor</a></li>
+                                <li><a href="listar2.php">Listar Autoria</a></li>
+                                <li><a href="listar3.php">Listar Livro</a></li>
+                            </ul>
+                        </li></li>
+                  
+                        <li><a href="#">Pesquisar</a>
+                            <ul>
+                                <li><a href="pesquisar.php">Pesquisar Autor</a></li>
+                                   <li> <a href="pesquisar2.php">Pesquisar Autoria</a></li>
+                                   <li> <a href="pesquisar3.php">Pesquisar Livro</a></li>
+                            </ul>
+                        </li></li>
+                    <li><a href="#">Excluir</a>
+                        
+                            <ul>
+                                <li><a href="excluir.php">Excluir Autor</a></li>
+                                <li><a href="excluir2.php">Excluir Autoria</a></li>
+                                <li><a href="excluir3.php">Excluir Livro</a></li>
+                            </ul>
+                        </li></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+       </header> 
+       <!--
+       <div class="slider">
+
+        <div class="slides">  
+ 
+   <input type="radio" name="radio-btn" id="radio1">
+   <input type="radio" name="radio-btn" id="radio2">
+   <input type="radio" name="radio-btn" id="radio3">
+   <input type="radio" name="radio-btn" id="radio4">
+
+   
+
+   <div class="slide first">
+   <img src="../img/need.jpg" alt="Imagem 1" />
+   </div>
+   
+   <div class="slide">
+   <img src="../img/need2.jpg" alt="Imagem 2" />
+   </div>
+   
+   <div class="slide">
+   <img src="../img/nee3.jpg" alt="Imagem 3" />
+   </div>
+   
+   <div class="slide">
+   <img src="../img/nee4.jpg" alt="Imagem 4" />
+   </div>
+   
+
+   <div class="navigation-auto">
+       <div class="auto-btn1"></div>
+       <div class="auto-btn2"></div>
+       <div class="auto-btn3"></div>
+       <div class="auto-btn4"></div>
+   </div>
+   
+         </div>
+   <div class="manual-navigation">
+       <label for="radio1" class="manual-btn"></label>
+       <label for="radio2" class="manual-btn"></label>
+       <label for="radio3" class="manual-btn"></label>
+       <label for="radio4" class="manual-btn"></label>
+   </div>
+   
+      </div>
+    -->
+
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Cadastrar  </h3>
+                    <p>Cadastre  aqui!</p>
+                         <a href="cadastrar.php">Cadastrar Autor </a>
+                         <a href="cadastrar2.php">Cadastrar Autoria </a>
+                         <a href="cadastrar3.php">Cadastrar Livros</a>
+                        
+                </div>
+            </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>Listar</h3>
+                        <p>Veja ... aqui!</p>
+
+                        <a href="listar.php">Autor</a>
+                        <a href="listar2.php">Autoria</a>
+                        <a href="listar3.php">Livros</a>
+                        
+        </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Pesquisar</h3>
+                <p>Pesquise... aqui!</p>
+                       <a href="pesquisar.php">Pesquisar Autor</a>
+                       <a href="pesquisar2.php">Pesquisar Autoria</a>
+                       <a href="pesquisar3.php">Pesquisar Livro</a>
+                      
+
+                    </div> </div>
+
+                    <div class="card">
+                        <div class="content">
+                            <h2>04</h2>
+                            <h3>Excluir</h3>
+                            <p>Excluir...</p>
+                                   <a href="excluir.php">Excluir Autor</a>
+                                   <a href="excluir2.php">Excluir Autoria</a>
+                                   <a href="excluir3.php">Excluir Livro</a>
+                                
+            
+                                </div> </div>
+                                <div class="card">
+                                    <div class="content">
+                                        <h2>05</h2>
+                                        <h3>Alterar</h3>
+                                        <p>Alterar...  aqui!</p>
+                                               <a href="#">Alterar...</a>
+                                               
+                                            </div> </div>
+                    
+                    
+                    <script src="../javascript/carrosel.js"></script>
+                    <script type="text/javascript" src="vanilla-tilt.js"></script>
+                    <script>
+                     VanillaTilt.init(document.querySelectorAll(".card"),{
+                        max:25,
+                        speed:400,
+                        glare:true,
+                        "max-glare":1,
+                    });
+                    </script>
+
+    
+    </body>
+</html>
